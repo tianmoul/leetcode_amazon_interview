@@ -12,6 +12,6 @@ class Solution:
                 i = max(mp[s[j]], i)
 
             ans = max(ans, j - i + 1)
-            mp[s[j]] = j
+            mp[s[j]] = j+1
 
         return ans
